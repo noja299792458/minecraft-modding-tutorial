@@ -13,7 +13,7 @@ public class ExampleMod implements ModInitializer {
         // project.
 
         // Use Fabric to bootstrap the Common mod.
-        Constants.LOG.info("Hello Fabric world!");
+        Constants.LOGGER.info("Hello Fabric world!");
         CommonClass.init();
         
         // Some code like events require special initialization from the

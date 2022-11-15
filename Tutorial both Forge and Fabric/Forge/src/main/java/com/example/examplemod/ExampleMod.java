@@ -14,7 +14,7 @@ public class ExampleMod {
         // project.
     
         // Use Forge to bootstrap the Common mod.
-        Constants.LOG.info("Hello Forge world!");
+        Constants.LOGGER.info("Hello Forge world!");
         CommonClass.init();
     
         // Some code like events require special initialization from the
